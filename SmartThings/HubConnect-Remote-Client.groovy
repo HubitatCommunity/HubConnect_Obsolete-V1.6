@@ -58,7 +58,7 @@ preferences
 	"arrival":			[driver: "Arrival Sensor", selector: "smartThingsArrival", capability: "presenceSensor", prefGroup: "other", synthetic: false, attr: ["presence", "battery", "tone"]],
 	"audioVolume":		[driver: "AVR", selector: "audioVolume", capability: "audioVolume", prefGroup: "audio", synthetic: false, attr: ["switch", "mediaInputSource", "mute", "volume"]],
 	"bulb":				[driver: "Bulb", selector: "genericBulbs", capability: "changeLevel", prefGroup: "switches", synthetic: false, attr: ["switch", "level"]],
-	"button":			[driver: "Button", selector: "genericButtons", capability: "pushableButton", prefGroup: "other", synthetic: false, attr: ["numberOfButtons", "pushed", "held", "doubleTapped", "button", "temperature", "battery"]],
+	"button":			[driver: "Button", selector: "genericButtons", capability: "Button", prefGroup: "other", synthetic: false, attr: ["numberOfButtons", "pushed", "held", "doubleTapped", "button", "temperature", "battery"]],
 	"contact":			[driver: "Contact Sensor", selector: "genericContacts", capability: "contactSensor", prefGroup: "sensors", synthetic: false, attr: ["contact", "temperature", "battery"]],
 	"dimmer":			[driver: "Dimmer", selector: "genericDimmers", capability: "switchLevel", prefGroup: "switches", synthetic: false, attr: ["switch", "level"]],
 	"domemotion":		[driver: "DomeMotion Sensor", selector: "domeMotions", capability: "motionSensor", prefGroup: "sensors", synthetic: false, attr: ["motion", "temperature", "illuminance", "battery"]],
